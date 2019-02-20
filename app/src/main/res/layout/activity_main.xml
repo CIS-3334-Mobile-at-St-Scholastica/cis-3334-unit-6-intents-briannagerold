@@ -25,18 +25,18 @@
         android:layout_height="wrap_content">
 
         <ImageButton
+            android:id="@+id/imageButton1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@mipmap/spotlight1"
-            android:id="@+id/imageButton"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/spotlightimage1" />
 
         <TextView
-            android:text="SAL Colloquium “The Robot Next Door” \nFriday, February 24, 2017, 3:40 – 4:40 p.m.\nTower Hall 4119"
+            android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:text='"Twin Ports Choral Project-All Things New \n Friday, February 22, 2019, 7:30 - 9:30 p.m. \n Mitchell Auditorium' />
     </LinearLayout>
 
     <LinearLayout
@@ -45,29 +45,135 @@
         android:layout_height="wrap_content">
 
         <Button
-            android:text="Web Info"
+            android:id="@+id/button1WebInfo1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/button1WebInfo"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:text="Web Info" />
 
         <Button
-            android:text="Add to Calendar"
+            android:id="@+id/button1Calendar1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/button1Calendar"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:text="Add to Calendar" />
 
         <Button
-            android:text="Map"
+            android:id="@+id/button1map1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/button1map"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:text="Map" />
     </LinearLayout>
 
     <TextView
+        android:id="@+id/textViewStatus1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textViewStatus" />
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/spotlight2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text='"Zenith City Sings Choir Festival" \n Thursday, March 21, 2019 at 7:30 - 9:30 p.m. \n Mitchell Auditorium' />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button1WebInfo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Web Info" />
+
+        <Button
+            android:id="@+id/button1Calendar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add to Calendar" />
+
+        <Button
+            android:id="@+id/button1map2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Map" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewStatus2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/spotlight3" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text='"The Fan" \n Thursday, April 11, 2019, 7:30 - 9:30 p.m. \n CSS Theatre' />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button1WebInfo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Web Info" />
+
+        <Button
+            android:id="@+id/button1Calendar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add to Calendar" />
+
+        <Button
+            android:id="@+id/button1map3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Map" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewStatus3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
